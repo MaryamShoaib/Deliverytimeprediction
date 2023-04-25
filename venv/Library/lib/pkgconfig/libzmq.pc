@@ -1,0 +1,12 @@
+prefix=c:/deliverytimeprediction/venv/Library
+exec_prefix=c:/deliverytimeprediction/venv/Library
+libdir=c:/deliverytimeprediction/venv/Library/lib
+includedir=c:/deliverytimeprediction/venv/Library/include
+
+Name: libzmq
+Description: 0MQ c++ library
+Version: 4.3.4
+Libs: -L${libdir} -lzmq
+Libs.private: -lstdc++ 
+Requires.private: 
+Cflags: -I${includedir} 
